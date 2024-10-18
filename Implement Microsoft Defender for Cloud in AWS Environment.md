@@ -5,6 +5,8 @@ CNAPP (Cloud-Native Application Protection Platform) is a solution designed to i
 
 ## CNAPP Components
 
+![image](https://github.com/user-attachments/assets/59c3c9a9-d858-4748-8fdf-1d5ad63fdb86)
+
 ### CWPP (Cloud Workload Protection Platform)
 CWPP is a security solution designed to monitor and protect workloads running on cloud infrastructure. Cloud workloads include various types of tasks, software, and data that may run on different cloud environments. These workloads can be deployed across both managed and unmanaged cloud infrastructures, depending on the organization's setup. Common examples of cloud workloads include:
 - **Applications**: Comprising databases, servers, and networks connecting them.
@@ -27,9 +29,13 @@ CIEM focuses on managing and monitoring identities, permissions, and access (IAM
 
 ### Access Environment Settings
 1. Navigate to **Environment Settings** and click the **Add Environment** button.
+![image](https://github.com/user-attachments/assets/c7b73571-8946-4513-99ab-39df93548ded)
+
 2. Select **AWS** as the environment.
 
-### Account Details (First Page)
+### Account Details (First Page):
+![image](https://github.com/user-attachments/assets/91d58fcd-f948-40d1-bc3f-c8b6797a39dd)
+
 - **Connector Name**: Enter the name for your connector.
 - **Onboard**: Choose how to onboard your AWS accounts:
   - **Management Account**: Select this option to onboard the management account and automatically onboard all other linked accounts. This will also apply to any new accounts created after the onboarding process.
@@ -40,14 +46,19 @@ CIEM focuses on managing and monitoring identities, permissions, and access (IAM
 - **Location**: Select the exact location for the resource group.
 - **Scan Interval**: Set the scan interval. Note that for certain resources listed in the documentation, there are fixed scan intervals that cannot be modified.
 - **Account ID**: Enter the Account ID of the AWS account you're onboarding.
+![image](https://github.com/user-attachments/assets/9469594b-34f3-4f8e-81f7-708ae913184e)
+
 - **Excluded Accounts**: (Optional) If you're using the **Management Account** option, you can exclude specific accounts from onboarding.
 
 ### Select Plans
 - Choose the protection plan you want to apply.  
-- At the top of this page, you can find an explanation of all available plans and their features.
+![image](https://github.com/user-attachments/assets/e8bc3776-076e-4a52-aa11-cfa68f52d19b)
+
 
 ### Configure Access
 - Configure access by assigning the roles chosen on the previous page to AWS:
+![image](https://github.com/user-attachments/assets/ef3a501d-7414-4c36-a7e1-0bbfd7e4ca2c)
+
   - Download the **CloudFormation template** from the top of the page.
   - Click **Go to AWS** (optional; you can go to AWS directly).
 
