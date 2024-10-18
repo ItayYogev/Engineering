@@ -46,6 +46,7 @@ CIEM focuses on managing and monitoring identities, permissions, and access (IAM
 - **Location**: Select the exact location for the resource group.
 - **Scan Interval**: Set the scan interval. Note that for certain resources listed in the documentation, there are fixed scan intervals that cannot be modified.
 - **Account ID**: Enter the Account ID of the AWS account you're onboarding.
+
 ![image](https://github.com/user-attachments/assets/9469594b-34f3-4f8e-81f7-708ae913184e)
 
 - **Excluded Accounts**: (Optional) If you're using the **Management Account** option, you can exclude specific accounts from onboarding.
