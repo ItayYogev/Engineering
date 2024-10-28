@@ -34,7 +34,7 @@ CIEM focuses on managing and monitoring identities, permissions, and access (IAM
 
 ---
 
-## 🔍 What is CSPM?
+### 🛡️ CSPM (Cloud security posture management)
 
 **CSPM (Cloud Security Posture Management)** is a security solution designed to continuously monitor cloud environments for compliance, security vulnerabilities, and risks. CSPM tools help organizations manage their cloud security posture by identifying misconfigurations and providing remediation suggestions, ensuring that cloud services comply with industry standards and best practices.
 
