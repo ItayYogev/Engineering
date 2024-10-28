@@ -4,15 +4,6 @@ Welcome to the **Security Engineering Projects** repository! This repository sho
 
 ---
 
-## 📁 Table of Contents
-- [Introduction](#introduction)
-- [Project List](#project-list)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
 ## 📜 Introduction
 
 In today's rapidly evolving threat landscape, it is essential to adopt a proactive approach to security. This repository encapsulates my journey through various projects that focus on:
@@ -27,33 +18,25 @@ In today's rapidly evolving threat landscape, it is essential to adopt a proacti
 
 Below is a brief overview of the projects included in this repository:
 
-1. **Project Title 1**
-   - **Description:** Brief overview of the project and its objectives.
-   - **Technologies Used:** List of technologies or tools utilized.
-   - **Outcome:** Summary of the results or improvements achieved.
+1. **Conditional Access App Control**
+   - **Description:** A feature that monitors and blocks user activities within cloud applications in real time.
+   - **Technologies Used:** Microsoft Entra ID & Microsoft Defender for Cloud Apps.
+   - **Outcome:** With Conditional Access App Control, organizations can block access to applications or restrict certain actions, such as downloading sensitive files, if the user is on an unmanaged device or in a risky location.
 
-2. **Project Title 2**
-   - **Description:** Brief overview of the project and its objectives.
-   - **Technologies Used:** List of technologies or tools utilized.
-   - **Outcome:** Summary of the results or improvements achieved.
+2. **Creating Conditional Access Policy**
+   - **Description:** Conditional Access, or CA for short, is a feature that provides access to resources through policies
+   - **Technologies Used:** Microsoft Entra ID.
+   - **Outcome:** Restrict / grant access to employees in the organization to specific resources.
 
-3. **Project Title 3**
-   - **Description:** Brief overview of the project and its objectives.
-   - **Technologies Used:** List of technologies or tools utilized.
-   - **Outcome:** Summary of the results or improvements achieved.
+3. **Deception**
+   - **Description:** Deception is a feature similar to a honeypot
+   - **Technologies Used:** Microsoft Defender for Endpoint
+   - **Outcome:** Prevent malicious actors from accessing the organization's crown jewels.
 
-*(Add more projects as necessary)*
-
----
-
-## 🛠️ Technologies Used
-
-This section lists the various technologies and tools I have employed throughout my projects:
-
-- **Security Frameworks:** e.g., OWASP, NIST
-- **Tools:** e.g., Burp Suite, Wireshark, Nessus
-- **Programming Languages:** e.g., Python, Bash, PowerShell
-- **Cloud Platforms:** e.g., AWS, Azure, GCP
+4. **Implement Microsoft Defender for Cloud in AWS Environment**
+   - **Description:** Full implementation guide for adding the organization's AWS environment to Microsoft's CNAPP.
+   - **Technologies Used:** Microsoft Defender for Cloud.
+   - **Outcome:** Full protection of the cloud environment.
 
 ---
 
@@ -63,19 +46,3 @@ Contributions to this repository are welcome! If you have suggestions for improv
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 📫 Contact
-
-For any inquiries or feedback, please feel free to reach out to me at:
-
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-
----
-
-Thank you for visiting my Security Engineering Projects repository! Together, we can strengthen our defenses against cyber threats. 🚀
