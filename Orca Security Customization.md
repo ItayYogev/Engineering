@@ -25,11 +25,15 @@ In Orca's CNAPP, you can create **custom alerts** to receive notifications about
 
 In this example, we will create alerts from the **Discovery** category, as it is more convenient. We will create an alert for a new bucket that is publicly accessible.
 
+![image](https://github.com/user-attachments/assets/6d7b3991-669a-4550-b02a-4ff155c0711f)
+
 ### Steps
 1. Navigate to the **Discovery** category.
 2. Enter all the information you want to receive notifications about. 
    - You do not need to know the Orca syntax; you can write free text in English, and Orca's built-in AI engine will display the relevant results. Be sure to check the filtering the AI performs, as there may be errors.
 3. Click the **Create** button, then select **Custom Alert**.
+
+![image](https://github.com/user-attachments/assets/82a7a48b-d841-4245-9a58-9912a7ee8f2c)
 
 ### Alert Configuration
 - **Create Query:** This is the alert filter (already defined).
@@ -45,6 +49,8 @@ In this example, we will create alerts from the **Discovery** category, as it is
 To see all the alerts you have created, go to:  
 **Settings > Management > Alert Catalog**.
 
+![image](https://github.com/user-attachments/assets/5c480f53-c0d3-428a-8645-55731cba3bea)
+
 ---
 
 ## Creating Automation
@@ -55,6 +61,8 @@ You can create automations in the Orca platform to streamline tasks that are per
 In this example, we will address a scenario where the development department uses the **Impacket** library, which is classified by Orca as malicious. 
 
 We will create automation that takes all alerts of this type and resolves them automatically.
+
+![image](https://github.com/user-attachments/assets/115d8d81-e373-47f6-9d9d-3fe3cc16a5c0)
 
 ### Steps
 1. Navigate to: **Settings > Management > Automations**.
@@ -68,7 +76,7 @@ We will create automation that takes all alerts of this type and resolves them a
 
 There are additional categories that include integrations, but we won't focus on them at this moment. Here’s an example of the automation I created:
 
-*(Insert automation example here)*
+![image](https://github.com/user-attachments/assets/fb500cc7-6610-4f52-bba6-b950f2a61c5f)
 
 Once the automation is ready, click the **Save** button at the bottom.
 
@@ -86,15 +94,24 @@ In this example, we will create a view that shows new alerts with a scoring of 6
 - **Low** (score 3.0 – 4.9)
 - **Informational** (score 1.0 – 2.9)
 
+![image](https://github.com/user-attachments/assets/f866168a-f9c7-472f-a27b-a609c5290f27)
+
 #### Steps
 1. Navigate to the **Discovery** category.
 2. Select the view that you want to save.
 3. Click the **Save As** button at the top.
 
+![image](https://github.com/user-attachments/assets/4acf68e6-5def-4287-a1cb-2a174ef2b6d7)
+
 #### Configuration
 - Provide a name and description for the view, then click **Save**. 
 
+![image](https://github.com/user-attachments/assets/c93872a6-0b24-4a04-80f6-61af5f6f6004)
+
+
 Now, you should see the new view you created at the top of the screen.
+
+![image](https://github.com/user-attachments/assets/63fe105f-aa17-4998-bd67-1f277c31eb40)
 
 ---
 
@@ -103,7 +120,12 @@ Let’s take the same example from the previous explanation to display all new a
 
 In the **Alerts** category, the filters are located on the right side:
 
+![image](https://github.com/user-attachments/assets/8e5b590f-6d34-48e9-a36c-3812c78f0f1c)
+
 - **Filters:** Criteria for displaying/not displaying results.
+
+![image](https://github.com/user-attachments/assets/1c17eba7-4287-422a-a040-abfbf119c14a)
+
 - **Group:** Criteria for grouping/not grouping alerts (optional).
 - **Sort:** Criteria for sorting/not sorting results.
 
