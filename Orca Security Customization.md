@@ -129,6 +129,8 @@ In the **Alerts** category, the filters are located on the right side:
 - **Group:** Criteria for grouping/not grouping alerts (optional).
 - **Sort:** Criteria for sorting/not sorting results.
 
+![image](https://github.com/user-attachments/assets/16dba9c6-a9e2-412c-a9e3-e8f9ac680b5c)
+
 #### Steps for Saving the View
 The process for saving the view is the same as described earlier:
 1. Click the **Save As** button at the top.
@@ -142,19 +144,27 @@ In this guide, we will explain how to connect an AWS account to the Orca platfor
 
 **Note:** At the top right corner of the Orca platform, you can choose between connecting a single account, multiple accounts, or performing customization. In this guide, we will focus on connecting a single AWS account.
 
+![image](https://github.com/user-attachments/assets/5ef75e8e-922e-40ce-8ff4-84cf824070d3)
+
 ### Steps
 1. Log in to the Orca platform and go to: **Settings > Connections > Account Center**.
 2. Click the **Connect Account** button in the top right.
 3. Choose the **AWS** option.
 
+![image](https://github.com/user-attachments/assets/2b37bf34-0de4-4f80-97ec-5a35306df1ba)
+
 ### Configure AWS Features
 Follow the steps displayed in the Orca platform:
+
+![image](https://github.com/user-attachments/assets/5d39920a-d40e-4e22-a6dc-f6639970842d)
 
 - **Enable Features:** Configure features such as:
   - **Auto Remediation:** Automatic response to security events.
   - **Managed Databases:** Security insights for databases (RDS).
 - **Connect to AWS**
 - **Upload the CloudFormation Template:** Check the box and click **Create Stack**.
+
+![image](https://github.com/user-attachments/assets/aeed01c7-5ec4-4eb2-86a0-990c824f03c7)
 
 ### Finalizing the Connection
 1. In CloudFormation, switch to the **Outputs** tab, copy the ARN, and paste it in the appropriate field in the Orca platform.
