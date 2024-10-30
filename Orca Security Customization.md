@@ -1,4 +1,6 @@
 # Orca Security Customization
+This document serves as a comprehensive guide for maintaining, improving, troubleshooting, and implementing various projects within the Orca Security CNAPP (Cloud Native Application Protection Platform). It aims to provide clear instructions and best practices for utilizing Orca's powerful features to enhance your organization's security posture. 
+
 
 ## Table of Contents
 1. [Creating Custom Alerts](#creating-custom-alerts)
